@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PurchaseSuite">
+    <parameter name="driver-path" value="C:\Users\r4vc3\taeAcademy\module2\WebAutomation\src\utils\chromedriver.exe" />
+    <parameter name="url" value="https://www.saucedemo.com/" />
+    <parameter name="username" value="standard_user" />
+    <parameter name="password" value="secret_sauce" />
+    <parameter name="firstname" value="Ronald" />
+    <parameter name="lastname" value="Vera" />
+    <parameter name="postal-code" value="090406" />
+    <parameter name="header-thank-you-page" value="Thank you for your order!" />
+    <test name="PurchaseProductTest">
+        <classes>
+            <class name="com.globant.tests.PurchaseProductTest" />
+        </classes>
+    </test>
+</suite>

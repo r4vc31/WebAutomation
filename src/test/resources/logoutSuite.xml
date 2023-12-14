@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LogoutSuite">
+    <parameter name="driver-path" value="C:\Users\r4vc3\taeAcademy\module2\WebAutomation\src\utils\chromedriver.exe" />
+    <parameter name="url" value="https://www.saucedemo.com/" />
+    <parameter name="username" value="standard_user" />
+    <parameter name="password" value="secret_sauce" />
+    <test name="LogoutTest">
+        <classes>
+            <class name="com.globant.tests.LogoutTest" />
+        </classes>
+    </test>
+</suite>
